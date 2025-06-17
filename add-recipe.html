@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Recipe List</title>
+</head>
+<body>
+    <header>
+        <nav>
+        <a href="index.html">Home</a> |
+        <a href="add-recipe.html">Add Recipe</a> |
+        <a href="recipe-list.html">Recipe List</a>
+        </nav>
+    </header>
+    <h1>Add a New Recipe 🥘</h1>
+    <section>
+        <form>
+            <div>
+                <label  for="Name">Recipe Name:</label><br>
+                <input type="text" id="Name"  placeholder="Type your name here" minlenght="5" min="5" max="8" required><br><br>
+            </div>
+
+            <div>
+                <label for="Ingredients">Ingredients:</label><br>
+                <textarea id="Ingredients" required></textarea> <br><br>
+            </div>
+
+            <div>
+                <label for="Instructions">Cooking Instructions:</label> <br>
+                <textarea id="Instructions" required></textarea> <br><br>
+            </div>
+
+            <div>
+                <label for="URL">Image URL:</label> <br>
+                <input  type="url" id="URL" required> <br><br>
+            </div>
+
+            <div>
+                <label for="select">Category:</label>
+                <select required>
+                    <option value="#" id="select">-Select Category-</option>
+                    <option>Appetaizer</option>
+                    <option>Quick Meals</option>
+                    <option>Afghani Food</option>
+                    <option>Vegan</option>
+                    <option>Dessert</option>
+                </select>
+            </div> <br><br>
+
+            <button type="submit">Add Recipe</button>
+        </form>
+    </section>
+</body>
+<footer id="footer">
+    <p> Made By Khatera Noori ❤️</p>
+</footer>
+<style>
+#footer{
+    background-color: rgb(229, 176, 132);
+    text-align: center;
+    margin-left: auto;
+    margin-right: auto;  
+}
+</style>
+</html>
